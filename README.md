@@ -1,5 +1,48 @@
 # RAG Architecture - Detailed Explanation
 
+## Installation
+
+### Prerequisites
+- Python 3.8 or higher
+
+### Setup
+
+1. Create a virtual environment:
+```bash
+python -m venv venv
+```
+
+2. Activate the virtual environment:
+   - **Windows:**
+     ```bash
+     venv\Scripts\activate
+     ```
+   - **macOS/Linux:**
+     ```bash
+     source venv/bin/activate
+     ```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. (Optional) Set your Anthropic API key to enable LLM responses:
+```bash
+# Windows
+set ANTHROPIC_API_KEY=your-api-key
+
+# macOS/Linux
+export ANTHROPIC_API_KEY=your-api-key
+```
+
+5. Run the demo:
+```bash
+python main.py
+```
+
+---
+
 ## Overview
 RAG (Retrieval Augmented Generation) combines information retrieval with large language models to provide accurate, grounded responses based on external knowledge bases.
 
